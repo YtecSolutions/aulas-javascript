@@ -53,7 +53,7 @@ let carro = {
     modelo: "Uno com escada",
     portas: 2,
     cor: "branco",
-    opcionais: ["Ar condicionado", "Vidros elétricos","Alarme"]
+    opcionais: ["Ar condicionado", "Vidros elétricos", "Alarme"]
 };
 
 console.log(carro);
@@ -66,6 +66,17 @@ console.log(`Carros da ${carro.marca} tem a cor ${carro.cor}`);
 
 console.log(`Este carro tem ${carro.opcionais[0]} e ${carro.opcionais[0]}`);
 
+/* Crie um novo objeto contendo informações de algo que voce gosta (filme, livro, comida, jogo , etc) */
+// 2- Exibir uma mensagem com pelo menos 2 propriedade do objeto que voce criou.
+
+let comida = {
+    prato_feito: "Arroz, feijão, bife e ovo",
+    sobremesa: "Pudim ",
+    bebida: "suco de laranja",
+    acompanhamento: "salada fria"
+}
+
+console.log(`Gosto de ${comida.prato_feito} e um bom ${comida.bebida}`);
 
 
 

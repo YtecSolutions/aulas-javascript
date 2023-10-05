@@ -28,8 +28,29 @@ Number ( números  inteiros, decimais, octais, etc
     Boolean (Booleano, valores " true/verdadeiro" ou False/falso") 
     usar o camndo typeof nomeDaVariavel"  
     */
+// Só funciona a visualização pelo Console
 
-  
+/* Crie uma constante chamada "dados" e coloque nela os dados de uma pessoa: nome, sobrenome, idade, telefone e cidade
+
+2- Mostre no console uma mensagem contendo somente o nome e a idade da pessoa.
+Exemplo: Fulano tem 25 anos
+
+*/
+
+
+
+const dados = ["Maria", "Debet", 18, "3568.99.99, Nova York"];
+
+console.log(`${dados[0]}, tem ${dados[2]} anos de idade.`);
+
+console.log(dados);
+
+
+
+
+
+
+
 
 
 

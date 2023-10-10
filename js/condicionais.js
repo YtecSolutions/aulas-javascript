@@ -33,7 +33,7 @@ let usuario = prompt("Qual o seu nome?");
 let idade = prompt("Qual a sua idade");
 let mensagem;
 
-if (idade >= 60 ) {
+if (idade >= 60) {
 
     mensagem = "idoso(a)";
 

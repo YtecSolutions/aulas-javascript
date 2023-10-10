@@ -1,3 +1,4 @@
+"use strict";
 let nota1 = 8;
 let nota2 = 1;
 let media = ((nota1 + nota2)/2);

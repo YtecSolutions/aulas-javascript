@@ -133,8 +133,8 @@ let tecnologias = [
 console.log(tecnologias[1][3]); // Acesso a Node
 
 
-
-
+console.table(cursos);
+console.table(alunos);
 
 
 

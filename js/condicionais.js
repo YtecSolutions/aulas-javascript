@@ -7,24 +7,42 @@ Comandos mais comuns: if(Se), else(senão), else if(senão se)
 let usuario= "Juean";
 */
 
-let usuario = prompt("Qual o seu nome?");
+/* let usuario = prompt("Qual o seu nome?");
 let idade = prompt("Qual a sua idade");
-let mensagem;
+let mensagem; */
 
 //Verificar idade e determinar se é menor ou maior.
 
 // Condicional Composta
 //REFATORAÇÃO (MELHORAR O CÓDIGO)
 
-if (idade >= 18) {
+/* if (idade >= 18) {
     mensagem = "maior"
 
 
 } else {
     mensagem = "menor"
 
-}
+} */
 
 // Resultado apóes a condicional
-console.log(`${usuario} é ${mensagem} de idade`);
-alert(`${usuario} é ${mensagem} de idade`);
+/* console.log(`${usuario} é ${mensagem} de idade`);
+alert(`${usuario} é ${mensagem} de idade`); */
+
+let usuario = prompt("Qual o seu nome?");
+let idade = prompt("Qual a sua idade");
+let mensagem;
+
+if (idade >= 60 ) {
+
+    mensagem = "idoso(a)";
+
+} else if (idade >= 18) {
+
+    mensagem = " adulto(a)";
+} else {
+    mensagem = "menor";
+}
+console.log(`${usuario} voce tem ${idade}anos e é considerado ${mensagem},`);
+
+alert(`${usuario} voce tem ${idade}anos e é considerado ${mensagem},`);

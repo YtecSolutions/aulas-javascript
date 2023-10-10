@@ -8,19 +8,22 @@ let usuario= "Juean";
 */
 
 let usuario = "Juean";
-let idade = 35;
+let idade = 25;
+let mensagem;
 
 //Verificar idade e determinar se é menor ou maior.
 
 // Condicional Composta
+//REFATORAÇÃO (MELHORAR O CÓDIGO)
 
 if (idade >= 18) {
+    mensagem = "maior"
 
-    console.log(`${usuario} é maior de idade!`);
+
 } else {
-    console.log(`${usuario} é menor de idade!`);
+    mensagem = "menor"
 
 }
- 
 
-
+// Resultado apóes a condicional
+console.log(`${usuario} é ${mensagem} de idade`);

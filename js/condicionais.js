@@ -7,8 +7,8 @@ Comandos mais comuns: if(Se), else(senão), else if(senão se)
 let usuario= "Juean";
 */
 
-let usuario = "Juean";
-let idade = 25;
+let usuario = prompt("Qual o seu nome?");
+let idade = prompt("Qual a sua idade");
 let mensagem;
 
 //Verificar idade e determinar se é menor ou maior.
@@ -27,3 +27,4 @@ if (idade >= 18) {
 
 // Resultado apóes a condicional
 console.log(`${usuario} é ${mensagem} de idade`);
+alert(`${usuario} é ${mensagem} de idade`);

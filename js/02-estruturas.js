@@ -121,6 +121,18 @@ let alunos = [
 console.log(alunos[1].nome);//Guts
 console.log(alunos[0].nome);//Naruto
 console.log(`O cavaleiro de ouro originalmente era o ${alunos[2].nome} de Libra que tem ${alunos[2].idade} anos.`)
+// Array como matriz
+
+let tecnologias = [
+
+    ["HTML5", "CSS3", "JavaScript"],
+    ["PHP", "SQL", "APIs", "Node", "Python"],
+    ["Figma", "Photoshop"]
+];
+
+console.log(tecnologias[1][3]); // Acesso a Node
+
+
 
 
 

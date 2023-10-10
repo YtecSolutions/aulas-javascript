@@ -83,14 +83,14 @@ console.log("____________________________________________________________");
 //Objeto com array e com outro objeto:
 
 let pessoa = {
-nome: "Shiryu",
-idade: 20,
-telefones: ["11-21350300","11-91234-5678"],
+    nome: "Shiryu",
+    idade: 20,
+    telefones: ["11-21350300", "11-91234-5678"],
 
-medidas:{
-peso:65,
-altura:1.75
-}
+    medidas: {
+        peso: 65,
+        altura: 1.75
+    }
 
 };
 console.log(`Nome: ${pessoa.nome}`);
@@ -99,7 +99,28 @@ console.log(`Peso: ${pessoa.medidas.peso} kg`);
 
 //Array de objetos
 
+let alunos = [
 
+    {
+        nome: "Naruto",
+        idade: 10
+    },
+    {
+        nome: "Guts",
+        idade: 30
+    },
+
+    {
+        nome: "Dohko",
+        idade: 120
+    }
+];
+
+//saída de dados
+
+console.log(alunos[1].nome);//Guts
+console.log(alunos[0].nome);//Naruto
+console.log(`O cavaleiro de ouro originalmente era o ${alunos[2].nome} de Libra que tem ${alunos[2].idade} anos.`)
 
 
 

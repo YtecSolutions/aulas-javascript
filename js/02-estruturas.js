@@ -5,7 +5,7 @@ Arrays (Vetores/Matrizes): são listas de dados indexados, sequenciais acessíve
 
 Objetos
 
-Lista de dados não indexados e formados por propriedades e valores.
+Lista de dados não indexados e formados por propriedades e valores. 
 */
 
 // Arrays 
@@ -77,6 +77,33 @@ let comida = {
 }
 
 console.log(`Gosto de ${comida.prato_feito} e um bom ${comida.bebida}`);
+
+console.log("____________________________________________________________");
+
+//Objeto com array e com outro objeto:
+
+let pessoa = {
+nome: "Shiryu",
+idade: 20,
+telefones: ["11-21350300","11-91234-5678"],
+
+medidas:{
+peso:65,
+altura:1.75
+}
+
+};
+console.log(`Nome: ${pessoa.nome}`);
+console.log(`Celular: ${pessoa.telefones[1]}`);
+console.log(`Peso: ${pessoa.medidas.peso} kg`);
+
+//Array de objetos
+
+
+
+
+
+
 
 
 

@@ -7,13 +7,24 @@ const limiteDeFaltas = 10;
 
 let aluno = "Jean";
 let mediaFinal = 10;
-let faltas = 10;
+let faltas = 19;
 let resultado;
 
 /* Operador lógico E (AND) */
+// if (mediaFinal >= mediaMinima && faltas <= limiteDeFaltas) {
+//     resultado = "aprovado";
+// } else {
+//     resultado = "reprovado";
+// }
+
+
 if (mediaFinal >= mediaMinima && faltas <= limiteDeFaltas) {
     resultado = "aprovado";
-} else {
+
+} else if(faltas > limiteDeFaltas){
+    resultado = "reprovado por faltas";
+
+} else{
     resultado = "reprovado";
 }
 console.log(`O aluno ${aluno} está ${resultado}`);

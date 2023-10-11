@@ -36,9 +36,18 @@ Comandos Tradicionais:
 // } while (i <= 3)
 
 // EXEMPLO FOR (PARA)
-//let i = 1  DECLARAÇÃO DE VARIÁVEL
-//i <= 10 CONDIÇÃO
+//let i = 1   DECLARAÇÃO DE VARIÁVEL
+//i <= 10     CONDIÇÃO
+//i++         INCREMENTO
 
-for(let i = 1; i<=10; i++){         
-console.log(`i vale ${i}`);
+// for(let i = 1; i<=10; i++){         
+// console.log(`i vale ${i}`);
+// }
+
+let clientes = ["Ozzy", "Dio", "Gillan", "Martin", "Hughes"];
+
+let quantidadeClientes = clientes.length;
+for (let i = 0; i < quantidadeClientes; i++) {
+console.log(`Cliente: ${clientes[i]}`);
 }
+

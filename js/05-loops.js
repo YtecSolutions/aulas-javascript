@@ -15,9 +15,16 @@ Comandos Tradicionais:
 // i, j, k 
 
 */
-let contador = 1;
-while(contador <= 500){
-    console.log(`Valor de contador: ${contador}`);
-    contador++;
-}
+// Exemplo WHILE
+// let contador = 1;
+// while(contador <= 500){
+//     console.log(`Valor de contador: ${contador}`);
+//     contador++;
+// }
 
+// Exemplo DO/WHILE (FAÇA/ENQUANTO)
+let contador = 10;
+do { 
+    console.log(`Contador vale:${contador}`);
+    contador++;
+} while (contador <= 3)

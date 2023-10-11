@@ -29,9 +29,16 @@ Comandos Tradicionais:
 // Exemplo 1: while 
 // Nomes comuns para esta variável:
 // i, j, k 
-let i = 10;
-do { 
-    console.log(`i vale:${i}`);
-    i++;
-} while (i <= 3)
+// let i = 10;
+// do { 
+//     console.log(`i vale:${i}`);
+//     i++;
+// } while (i <= 3)
 
+// EXEMPLO FOR (PARA)
+//let i = 1  DECLARAÇÃO DE VARIÁVEL
+//i <= 10 CONDIÇÃO
+
+for(let i = 1; i<=10; i++){         
+console.log(`i vale ${i}`);
+}

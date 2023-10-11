@@ -44,6 +44,8 @@ Comandos Tradicionais:
 // console.log(`i vale ${i}`);
 // }
 
+// Cache/Memória da quantidade de elementos do array
+
 let clientes = ["Ozzy", "Dio", "Gillan", "Martin", "Hughes"];
 
 let quantidadeClientes = clientes.length;

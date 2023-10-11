@@ -1,3 +1,6 @@
+
+"use strict";
+
 /* Comandos de Repetição
 Instruções para realizar ações
 por uma quantidade específica de vezes.
@@ -23,8 +26,12 @@ Comandos Tradicionais:
 // }
 
 // Exemplo DO/WHILE (FAÇA/ENQUANTO)
-let contador = 10;
+// Exemplo 1: while 
+// Nomes comuns para esta variável:
+// i, j, k 
+let i = 10;
 do { 
-    console.log(`Contador vale:${contador}`);
-    contador++;
-} while (contador <= 3)
+    console.log(`i vale:${i}`);
+    i++;
+} while (i <= 3)
+

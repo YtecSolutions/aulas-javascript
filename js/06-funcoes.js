@@ -8,5 +8,47 @@
 
 // O JS já possui centaenas de funções prontas:
 
-/* Exemplos: log(), alert(), prompt(), toFixed etc... */ 
+/* Exemplos: log(), alert(), prompt(), toFixed etc... */
+
+// Forma 1: função anônima
+
+const exemplo1 = function () {
+    console.log("Função anônima");
+}
+
+
+// Forma 2 =  Função nomeada/declarada
+
+function exemplo2() {
+    console.log("Função nomeada/declarada");
+};
+
+// Forma 3: arrow function 
+
+const exemplo3 = () => {
+    console.log(("Arrow Function"));
+};
+//chamada de função
+
+exemplo1();
+exemplo2();
+exemplo3();
+console.log("_ ___________________ _ 🙂");
+// valor1 e valor2 são parâmetros
+
+// Função com parâmetros e retorno de dados/resultados
+function somar(valor1, valor2) {
+   return valor1 + valor2; // retorno de dados
+}
+console.log(somar(10, 20));
+console.log(somar(15, 50));
+console.log(somar(30, 47.8));
+
+console.log("_______________________ 😃");
+
+
+
+
+
+
 

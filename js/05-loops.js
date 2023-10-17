@@ -50,7 +50,45 @@ let clientes = ["Ozzy", "Dio", "Gillan", "Martin", "Hughes"];
 
 let quantidadeClientes = clientes.length;
 for (let i = 0; i < quantidadeClientes; i++) {
-console.log(`Cliente: ${clientes[i]}`);
+    console.log(`Cliente: ${clientes[i]}`);
 }
 console.log("_________________________________________")
+
+// for of para arrays
+
+let bandas = ["Slayer", "Dream Theater", "Nightwish"];
+
+for (let banda of bandas) {
+    console.log(banda);
+}
+
+console.log("________________________________________");
+
+// for/in > para objetos
+
+let livro = {
+    titulo: "HTML5",
+    autor: "Maujor",
+    site: "http://maujor.com",
+    ano: 2016,
+    edidora: "Novatec",
+    edicao: 3
+};
+
+// para DADOS em LIVRO
+for (let propriedade in livro) {
+    // Acessar apenas a propriedade
+    // console.log(dados);
+    // Acessar o valor de cada propriedade:
+
+    //console.log(livro[dados]);
+
+    console.log((`${propriedade} -> ${livro[propriedade]}`));
+
+
+
+}
+
+
+
 

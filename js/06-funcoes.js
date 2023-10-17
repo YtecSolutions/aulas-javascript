@@ -38,7 +38,7 @@ console.log("_ ___________________ _ 🙂");
 
 // Função com parâmetros e retorno de dados/resultados
 function somar(valor1, valor2) {
-   return valor1 + valor2; // retorno de dados
+    return valor1 + valor2; // retorno de dados
 }
 console.log(somar(10, 20));
 console.log(somar(15, 50));
@@ -48,13 +48,27 @@ console.log("_______________________ 😃");
 
 // Formatação de valores em Reais
 
-let preco = 1000;
+let preco = 4000;
 let desconto = preco * 0.10;
 let precoFinal = preco - desconto;
 
-console.log(`Preco: ${preco.toLocaleString()}`);
-console.log(`Desconto: ${desconto.toLocaleString()}`);
-console.log(`Preço final: ${precoFinal.toLocaleString()}`);
+console.log(`Preco: ${preco.toLocaleString("pt-br", {
+    style: "currency",
+    currency: "BRL"
+})}`);
+console.log(`Desconto: ${desconto.toLocaleString("pt-br",
+    {
+        style: "currency",
+        currency: "BRL"
+    })}`);
+
+console.log(`Preço final: ${precoFinal.toLocaleString("en", {
+    style: "currency",
+    currency: "usd"
+})}`);
+
+
+
 
 
 

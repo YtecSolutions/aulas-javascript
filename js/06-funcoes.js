@@ -46,6 +46,16 @@ console.log(somar(30, 47.8));
 
 console.log("_______________________ 😃");
 
+// Formatação de valores em Reais
+
+let preco = 1000;
+let desconto = preco * 0.10;
+let precoFinal = preco - desconto;
+
+console.log(`Preco: ${preco.toLocaleString()}`);
+console.log(`Desconto: ${desconto.toLocaleString()}`);
+console.log(`Preço final: ${precoFinal.toLocaleString()}`);
+
 
 
 

@@ -52,4 +52,5 @@ let quantidadeClientes = clientes.length;
 for (let i = 0; i < quantidadeClientes; i++) {
 console.log(`Cliente: ${clientes[i]}`);
 }
+console.log("_________________________________________")
 

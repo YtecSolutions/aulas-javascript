@@ -1,25 +1,31 @@
 
 
 let alunos = [{
-    id1: "Joãozinho",
-    id2: 15,
-    id3: "ciências"
+    id: 1,
+    nome: "Joãozinho",
+
+
 },
- {
-    id2: "Joãozinho",
-    id2: 15,
-    id3: "ciências"
+{
+    nome: "Mariazinha",
+    id: 2,
+
 },
- {
-    id3: "Joãozinho",
-    id2: 15,
-    id3: "ciências"
+{
+    nome: "Giuseppezinho",
+    id: 3,
+
 },
 ]
-for (let aluno of alunos) {
-    
-    console.log(`${alunos[0].id1}`)
-    console.log(`${alunos[1].id1}`)
-    console.log(`${alunos[2].id1}`)
+let quantidadeAlunos = alunos.length;
+for (let i = 0; i < quantidadeAlunos; i++)
+console.log(alunos[i].nome);
+    console.log("----------------------------------------")
+
+let i = 0;
+while (i < quantidadeAlunos) {
+
+    console.log(alunos[i].nome);
+    i++;
 
 }

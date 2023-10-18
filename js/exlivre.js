@@ -15,3 +15,29 @@ let valorConvertido = converterMoeda(valorDaCotacaoDoDia,valorEmDolares);
 
 console.log(valorEmDolares);
 console.log(valorConvertido);
+console.log("_________ 😎______________");
+
+
+//console.log(formatarMoeda(valorEmDolares));
+//console.log(formatarMoeda(valorConvertido));
+
+function formatarMoeda(valor) {
+    let opcoes = {
+        style: "currency",
+        currency: "BRL"
+    };
+    console.log("___________🙀_______________");
+    return valor.toLocaleString("pt-br", opcoes);
+}
+
+console.log(formatarMoeda(valorEmDolares, "en","USD"));
+console.log(formatarMoeda(valorConvertido, "pt-br", "BRL"));
+
+function formatarMoeda(valor, local, moeda) {
+    let opcoes = {
+        style: "currency",
+        currency: moeda
+    };
+    console.log("___________🙀_______________");
+    return valor.toLocaleString(local, opcoes);
+}

@@ -36,13 +36,30 @@ const linksReferencia = document.querySelectorAll("ul li a ") //seletor descende
 
 console.log("___________________________ ");
 
-
+let quantidadeDeLinks = linksReferencia.length;
 console.log(linksReferencia);
-for(let link of linksReferencia){
-    link.setAttribute("target","_blank");
+for (let link of linksReferencia) {
+    link.setAttribute("target", "_blank");
 }
-//let quantidadeDeLinks = linksReferencia.length;
+
 //for (let i = 0; i < quantidadeDeLinks; i++) {
- //   linksReferencia[i].setAttribute("target", "_blank");
+//   linksReferencia[i].setAttribute("target", "_blank");
 //}
+/* Manipulando Eventos */
+const pagina = document.querySelector("body");
+const exemplo01 = document.querySelector("#exemplo01");
+const mensagem = document.querySelector("#mensagem");
+
+// No querySelector temos que por "" # " para identificação  
+exemplo01.addEventListener("click", function () {
+    pagina.style.fontFamily = "Verdana";
+    mensagem.textContent = "Fonte alterada!";
+    mensagem.style.background = "yellow";
+});
+
+
+//monitor de evento Ouvinte de evento (aguardando)
+
+
+
 
